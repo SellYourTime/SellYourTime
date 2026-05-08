@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from database.db import *
+from db import *
 
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_CHAT_IDS", "0").split(",")]
 
