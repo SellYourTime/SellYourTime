@@ -1,0 +1,10 @@
+# Timely Bot — Requirements
+python-telegram-bot==20.7
+asyncpg==0.29.0
+python-dotenv==1.0.0
+aiohttp==3.9.1
+geopy==2.4.1          # محاسبه فاصله GPS
+apscheduler==3.10.4   # تسک‌های زمان‌بندی‌شده
+redis==5.0.1          # کش و session
+Pillow==10.2.0        # پردازش تصویر
+cryptography==42.0.0  # رمزنگاری اطلاعات حساس
