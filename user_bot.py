@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 load_dotenv()
 sys_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import sys; sys.path.insert(0, sys_path)
-from database.db import *
+from db import *
 
 # ─── States ──────────────────────────────────────
 (
